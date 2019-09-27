@@ -51,7 +51,7 @@ class CiCommand(Command):
     def run(self):
         self.run_command("lint")
 
-TEST_REQUIREMENTS = ["pylint==2.3.1"]
+TEST_REQUIREMENTS = ["pylint"]
 
 DEV_REQUIREMENTS = TEST_REQUIREMENTS + ["sphinx"]
 
